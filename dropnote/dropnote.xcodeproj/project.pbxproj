@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F32622FB1A111A5C0012D728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F32622FA1A111A5C0012D728 /* main.m */; };
+		F32622FE1A111A5C0012D728 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F32622FD1A111A5C0012D728 /* AppDelegate.m */; };
+		F32623011A111A5C0012D728 /* dropnote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F32622FF1A111A5C0012D728 /* dropnote.xcdatamodeld */; };
+		F32623041A111A5C0012D728 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32623031A111A5C0012D728 /* ViewController.m */; };
+		F32623071A111A5C0012D728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32623051A111A5C0012D728 /* Main.storyboard */; };
+		F32623091A111A5C0012D728 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32623081A111A5C0012D728 /* Images.xcassets */; };
+		F326230C1A111A5C0012D728 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F326230A1A111A5C0012D728 /* LaunchScreen.xib */; };
+		F32623181A111A5D0012D728 /* dropnoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F32623171A111A5D0012D728 /* dropnoteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F32623121A111A5D0012D728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F32622ED1A111A5C0012D728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32622F41A111A5C0012D728;
+			remoteInfo = dropnote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F32622F51A111A5C0012D728 /* dropnote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropnote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32622F91A111A5C0012D728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32622FA1A111A5C0012D728 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F32622FC1A111A5C0012D728 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F32622FD1A111A5C0012D728 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F32623001A111A5C0012D728 /* dropnote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dropnote.xcdatamodel; sourceTree = "<group>"; };
+		F32623021A111A5C0012D728 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F32623031A111A5C0012D728 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F32623061A111A5C0012D728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F32623081A111A5C0012D728 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F326230B1A111A5C0012D728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F32623111A111A5D0012D728 /* dropnoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropnoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32623161A111A5D0012D728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32623171A111A5D0012D728 /* dropnoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dropnoteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F32622F21A111A5C0012D728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F326230E1A111A5D0012D728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F32622EC1A111A5C0012D728 = {
+			isa = PBXGroup;
+			children = (
+				F32622F71A111A5C0012D728 /* dropnote */,
+				F32623141A111A5D0012D728 /* dropnoteTests */,
+				F32622F61A111A5C0012D728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F32622F61A111A5C0012D728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F32622F51A111A5C0012D728 /* dropnote.app */,
+				F32623111A111A5D0012D728 /* dropnoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F32622F71A111A5C0012D728 /* dropnote */ = {
+			isa = PBXGroup;
+			children = (
+				F32622FC1A111A5C0012D728 /* AppDelegate.h */,
+				F32622FD1A111A5C0012D728 /* AppDelegate.m */,
+				F32623021A111A5C0012D728 /* ViewController.h */,
+				F32623031A111A5C0012D728 /* ViewController.m */,
+				F32623051A111A5C0012D728 /* Main.storyboard */,
+				F32623081A111A5C0012D728 /* Images.xcassets */,
+				F326230A1A111A5C0012D728 /* LaunchScreen.xib */,
+				F32622FF1A111A5C0012D728 /* dropnote.xcdatamodeld */,
+				F32622F81A111A5C0012D728 /* Supporting Files */,
+			);
+			path = dropnote;
+			sourceTree = "<group>";
+		};
+		F32622F81A111A5C0012D728 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F32622F91A111A5C0012D728 /* Info.plist */,
+				F32622FA1A111A5C0012D728 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F32623141A111A5D0012D728 /* dropnoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				F32623171A111A5D0012D728 /* dropnoteTests.m */,
+				F32623151A111A5D0012D728 /* Supporting Files */,
+			);
+			path = dropnoteTests;
+			sourceTree = "<group>";
+		};
+		F32623151A111A5D0012D728 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F32623161A111A5D0012D728 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F32622F41A111A5C0012D728 /* dropnote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F326231B1A111A5D0012D728 /* Build configuration list for PBXNativeTarget "dropnote" */;
+			buildPhases = (
+				F32622F11A111A5C0012D728 /* Sources */,
+				F32622F21A111A5C0012D728 /* Frameworks */,
+				F32622F31A111A5C0012D728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dropnote;
+			productName = dropnote;
+			productReference = F32622F51A111A5C0012D728 /* dropnote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F32623101A111A5D0012D728 /* dropnoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F326231E1A111A5D0012D728 /* Build configuration list for PBXNativeTarget "dropnoteTests" */;
+			buildPhases = (
+				F326230D1A111A5D0012D728 /* Sources */,
+				F326230E1A111A5D0012D728 /* Frameworks */,
+				F326230F1A111A5D0012D728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F32623131A111A5D0012D728 /* PBXTargetDependency */,
+			);
+			name = dropnoteTests;
+			productName = dropnoteTests;
+			productReference = F32623111A111A5D0012D728 /* dropnoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F32622ED1A111A5C0012D728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = hoangpham;
+				TargetAttributes = {
+					F32622F41A111A5C0012D728 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F32623101A111A5D0012D728 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F32622F41A111A5C0012D728;
+					};
+				};
+			};
+			buildConfigurationList = F32622F01A111A5C0012D728 /* Build configuration list for PBXProject "dropnote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F32622EC1A111A5C0012D728;
+			productRefGroup = F32622F61A111A5C0012D728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F32622F41A111A5C0012D728 /* dropnote */,
+				F32623101A111A5D0012D728 /* dropnoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F32622F31A111A5C0012D728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32623071A111A5C0012D728 /* Main.storyboard in Resources */,
+				F326230C1A111A5C0012D728 /* LaunchScreen.xib in Resources */,
+				F32623091A111A5C0012D728 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F326230F1A111A5D0012D728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F32622F11A111A5C0012D728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32622FE1A111A5C0012D728 /* AppDelegate.m in Sources */,
+				F32623011A111A5C0012D728 /* dropnote.xcdatamodeld in Sources */,
+				F32623041A111A5C0012D728 /* ViewController.m in Sources */,
+				F32622FB1A111A5C0012D728 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F326230D1A111A5D0012D728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32623181A111A5D0012D728 /* dropnoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F32623131A111A5D0012D728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F32622F41A111A5C0012D728 /* dropnote */;
+			targetProxy = F32623121A111A5D0012D728 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F32623051A111A5C0012D728 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32623061A111A5C0012D728 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F326230A1A111A5C0012D728 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F326230B1A111A5C0012D728 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F32623191A111A5D0012D728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F326231A1A111A5D0012D728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F326231C1A111A5D0012D728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dropnote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F326231D1A111A5D0012D728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dropnote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F326231F1A111A5D0012D728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = dropnoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dropnote.app/dropnote";
+			};
+			name = Debug;
+		};
+		F32623201A111A5D0012D728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = dropnoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dropnote.app/dropnote";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F32622F01A111A5C0012D728 /* Build configuration list for PBXProject "dropnote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32623191A111A5D0012D728 /* Debug */,
+				F326231A1A111A5D0012D728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F326231B1A111A5D0012D728 /* Build configuration list for PBXNativeTarget "dropnote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F326231C1A111A5D0012D728 /* Debug */,
+				F326231D1A111A5D0012D728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F326231E1A111A5D0012D728 /* Build configuration list for PBXNativeTarget "dropnoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F326231F1A111A5D0012D728 /* Debug */,
+				F32623201A111A5D0012D728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F32622FF1A111A5C0012D728 /* dropnote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F32623001A111A5C0012D728 /* dropnote.xcdatamodel */,
+			);
+			currentVersion = F32623001A111A5C0012D728 /* dropnote.xcdatamodel */;
+			path = dropnote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F32622ED1A111A5C0012D728 /* Project object */;
+}
